@@ -26,7 +26,7 @@ class TasksController extends Controller
         $task = new Task;
 
         // メッセージ作成ビューを表示
-        return view('task.create', [
+        return view('tasks.create', [
             'task' => $task,
         ]);
     }
